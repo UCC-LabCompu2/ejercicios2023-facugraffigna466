@@ -3,7 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Ejercicio Columnas</title>
+
+    <style>
+        #tituloPrincipal{
+            color: rgb(42, 165, 54);
+        }
+        .tituloNoticia{
+            font-size: 30px;
+        }
+        body{
+            font-family: tahoma;
+        }
+        a:link, a:visited{
+            color: rgb(19, 19, 43);
+        }
+        a:hover{
+            font-size: 1.4em;
+        }
+        a.active{
+            font-weight: bold;
+        }
+        a{
+            transition: color 1s linear 0.2s;
+        }
+        article{
+            column-count: 2;
+            column-gap: 40px;
+        }
+    </style>
 </head>
+
 <body>
 <!--Cree los estilos CSS necesarios para que el texto se visualice en 2 columnas-->
 <header>
